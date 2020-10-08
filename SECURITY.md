@@ -8,4 +8,4 @@
 
 ## Reporting a Vulnerability
 
-Please open a [new issue](https://github.com/ldrocket/pur-cookie-manager/issues/new) and assign the label `security`. I'll check your report immediately.
+Please open a [new issue](https://github.com/ldrocket/pur-cookie-manager-firefox/issues/new) and assign the label `security`. I'll check your report immediately.
