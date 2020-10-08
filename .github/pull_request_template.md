@@ -1,0 +1,20 @@
+## Proposed changes
+<!-- Describe the big picture of your changes here to communicate to the maintainer why this pull request should be accepted. If it fixes a bug or resolves a feature request, be sure to link to that issue. -->
+
+## Screenshots (if appropriate) or code examples:
+<!-- Add supplemental screenshots or code examples. -->
+
+## Types of changes
+<!-- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+
+- [ ] Bug fix (non-breaking change which fixes an issue).
+- [ ] New feature (non-breaking change which adds functionality).
+- [ ] Breaking change (fix or feature that would cause existing functionality to change).
+
+## Checklist:
+<!-- Go over all the following points, and put an `x` in all the boxes that apply. If you're unsure about any of these, don't hesitate to ask. -->
+
+- [ ] My change requires a change to the documentation.
+- [ ] I have updated the documentation accordingly.
+- [ ] I have added tests to cover my changes.
+- [ ] All new and existing tests passed.
