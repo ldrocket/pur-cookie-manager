@@ -23,7 +23,6 @@ When asking general "how to" questions:
 
 ## Steps to Reproduce (for bugs)
 <!--- Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. -->
-<!--- Include code to reproduce, if relevant. -->
 1.
 2.
 
@@ -33,7 +32,7 @@ When asking general "how to" questions:
 
 ## Your Environment
 <!--- Include as many relevant details about the environment you experienced the bug in. -->
-<!--- Without a version number, your issue will be closed. -->
+<!--- Without these details, your issue will be closed. -->
 * Version used:
 * Browser Name and version:
 * Operating System and version (desktop or mobile):
