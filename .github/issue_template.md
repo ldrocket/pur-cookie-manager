@@ -2,7 +2,7 @@
 
 When asking general "how to" questions:
 
-- [Search for duplicate or closed issues](https://github.com/ldrocket/pur-cookie-manager/issues) and make sure to go through the [labels](https://github.com/ldrocket/pur-cookie-manager/labels).
+- [Search for duplicate or closed issues](https://github.com/ldrocket/pur-cookie-manager-firefox/issues) and make sure to go through the [labels](https://github.com/ldrocket/pur-cookie-manager-firefox/labels).
 - Explain all the steps required to reproduce your situation.
 
 <!--- Provide a general summary of the issue in the Title above. -->
