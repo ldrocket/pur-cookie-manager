@@ -2,8 +2,11 @@ function saveOptions(e) {
   e.preventDefault();
   
   browser.storage.sync.set({
-    golem_iub_value: document.querySelector("#golem_iub_value").value,
-    golem_usub_value: document.querySelector("#golem_usub_value").value
+    golem_iub: document.querySelector("#golem_iub").value,
+    heise_hacc: document.querySelector("#heise_hacc").value,
+    spiegel_accessInfo: document.querySelector("#spiegel_accessInfo").value,
+    zeit_sso_201501: document.querySelector("#zeit_sso_201501").value,
+    zeit_sso_session_201501: document.querySelector("#zeit_sso_session_201501").value
   });
 }
 
@@ -13,19 +16,45 @@ function restoreOptions() {
     console.log(`Error: ${error}`);
   }
   
-  function setGolemIubValue(result) {
-    document.querySelector("#golem_iub_value").value = result.golem_iub_value || "";
+  // Golem.de
+  function setGolemIub(result) {
+    document.querySelector("#golem_iub").value = result.golem_iub || "";
   }
   
-  function setGolemUsubValue(result) {
-    document.querySelector("#golem_usub_value").value = result.golem_usub_value || "";
+  let getGolemIub = browser.storage.sync.get("golem_iub");
+  getGolemIub.then(setGolemIub, onError);
+  
+  // heise online
+  function setHeiseHacc(result) {
+    document.querySelector("#heise_hacc").value = result.heise_hacc || "";
   }
 
-  let getGolemIubValue = browser.storage.sync.get("golem_iub_value");
-  getGolemIubValue.then(setGolemIubValue, onError);
+  let getHeiseHacc = browser.storage.sync.get("heise_hacc");
+  getHeiseHacc.then(setHeiseHacc, onError);
+  
+  
+  // DER SPIEGEL
+  function setSpiegelAccessInfo(result) {
+    document.querySelector("#spiegel_accessInfo").value = result.spiegel_accessInfo || "";
+  }
+  
+  let getSpiegelAccessInfo = browser.storage.sync.get("spiegel_accessInfo");
+  getSpiegelAccessInfo.then(setSpiegelAccessInfo, onError);
+  
+  // ZEIT ONLINE
+  function setZeitSso(result) {
+    document.querySelector("#zeit_sso_201501").value = result.zeit_sso_201501 || "";
+  }
+  
+  function setZeitSsoSession(result) {
+    document.querySelector("#zeit_sso_session_201501").value = result.zeit_sso_session_201501 || "";
+  }
+  
+  let getZeitSso = browser.storage.sync.get("zeit_sso_201501");
+  getZeitSso.then(setZeitSso, onError);
 
-  let getGolemUsubValue = browser.storage.sync.get("golem_usub_value");
-  getGolemUsubValue.then(setGolemUsubValue, onError);
+  let getZeitSsoSession = browser.storage.sync.get("zeit_sso_session_201501");
+  getZeitSsoSession.then(setZeitSsoSession, onError);
 }
 
 document.addEventListener("DOMContentLoaded", restoreOptions);

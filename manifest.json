@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Pur Cookie Manager",
-  "version": "1.0.1",
+  "version": "2.0.1",
 
-  "description": "Wer (aus Datenschutzgründen) regelmäßig seine Cookies löscht und Beiträge von Golem.de über ein Pur-Abo liest, der weiß, wie lästig es ist, sich bei jedem Lesen neu anzumelden. Dieses Add-On stellt die Cookies 'golem_iub' and 'golem_usub' automatisch wieder her, nachdem die Browser-Cookies bereinigt wurden. Golem pur-Abonnenten kommen damit beim Abrufen von Beiträgen in den Genuss, ihre Zugangsdaten nicht erneut eingeben zu müssen. Dadurch ist ein werbe- und trackingfreies Lesen garantiert. Das Add-On entfernt nicht den Cookie-Constent-Banner. Golem pur-Abonnement erforderlich. Kein offizielles Angebot von Golem.de.",
+  "description": "Nach dem Löschen von Cookies (aus Datenschutzgründen) ist es für das werbe- und trackingfreie Lesen von Golem.de, heise online, DER SPIEGEL oder ZEIT ONLINE notwendig, sich jedes Mal neu anzumelden. Dieses Add-On stellt die persönlichen Cookies der Portale nach dem Löschen aller Cookies automatisch wieder her und ermöglicht das werbe- und trackingfreie Lesen ohne ständige Anmeldung. Pur-Abonnement des jeweiligen Portals erforderlich. Kein offizielles Angebot von Golem.de, heise online, DER SPIEGEL oder ZEIT ONLINE.",
 
   "icons": {
     "256": "icons/icon-256x256.png"
@@ -11,8 +11,20 @@
 
   "content_scripts": [
     {
-      "matches": ["https://www.golem.de/news/*"],
-      "js": ["settings/jquery.min.js", "settings/setcookie.js"]
+      "matches": ["https://www.golem.de/*"],
+      "js": ["scripts/jquery.min.js", "scripts/setcookies.js"]
+    },
+    {
+      "matches": ["https://www.heise.de/*"],
+      "js": ["scripts/jquery.min.js", "scripts/setcookies.js"]
+    },
+    {
+      "matches": ["https://www.spiegel.de/*"],
+      "js": ["scripts/jquery.min.js", "scripts/setcookies.js"]
+    },
+    {
+      "matches": ["https://www.zeit.de/*"],
+      "js": ["scripts/jquery.min.js", "scripts/setcookies.js"]
     }
   ],
   
