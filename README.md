@@ -1,13 +1,13 @@
 # Pur Cookie Manager
 
-Wer (aus Datenschutzgründen) regelmäßig seine Cookies löscht und Beiträge von Golem.de über ein Pur-Abo liest, der weiß, wie lästig es ist, sich bei jedem  Lesen neu anzumelden.
+Nach dem Löschen von Cookies (aus Datenschutzgründen) ist es für das werbe- und trackingfreie Lesen von Golem.de, heise online, DER SPIEGEL oder ZEIT ONLINE notwendig, sich jedes Mal neu anzumelden.
 
-Dieses Firefox-Add-On stellt die Cookies 'golem_iub' and 'golem_usub' automatisch wieder her, nachdem die Browser-Cookies bereinigt wurden. Golem pur-Abonnenten kommen damit beim Abrufen von Beiträgen in den Genuss, ihre Zugangsdaten nicht erneut eingeben zu müssen. Dadurch ist ein werbe- und trackingfreies Lesen garantiert.
+Dieses Add-On stellt die persönlichen Cookies der Portale nach dem Löschen aller Cookies automatisch wieder her und ermöglicht das werbe- und trackingfreie Lesen ohne ständige Anmeldung.
 
-Das Add-On entfernt nicht den Cookie-Constent-Banner. Golem pur-Abonnement erforderlich. Kein offizielles Angebot von Golem.de.
+Pur-Abonnement des jeweiligen Portals erforderlich. Kein offizielles Angebot von Golem.de, heise online, DER SPIEGEL oder ZEIT ONLINE.
 
 Verfügbar im [Firefox-Store](https://addons.mozilla.org/de/firefox/addon/pur-cookie-manager/).
 
-![Artikel mit Popup](https://addons.cdn.mozilla.net/user-media/previews/full/245/245729.png)
-![Auslesen der Cookie-Werte und Eintragen in die Add-On-Einstellungen](https://addons.cdn.mozilla.net/user-media/previews/full/245/245730.png)
-![Ab sofort werden die Artikel ohne Popup werbe- und trackingfrei angezeigt](https://addons.cdn.mozilla.net/user-media/previews/full/245/245731.png)
+![Consent-Banner Golem.de](https://addons.mozilla.org/user-media/previews/full/276/276817.png)
+![Auslesen des Cookies für Golem.de und Eintragen in die Add-On-Einstellungen](https://addons.mozilla.org/user-media/previews/full/276/276823.png)
+![Ab sofort werden die Artikel von Golem.de ohne Consent-Banner werbe- und trackingfrei angezeigt](https://addons.mozilla.org/user-media/previews/full/276/276821.png)
